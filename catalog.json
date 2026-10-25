@@ -1,0 +1,1258 @@
+{
+  "updated": "2026-10-25",
+  "coverage": "Official regional product listings; not an exhaustive archive of every historical design, size, or discontinued flavor.",
+  "sources": [
+    {
+      "region": "US",
+      "url": "https://www.drinkmonster.com/en-us/products/"
+    },
+    {
+      "region": "GB",
+      "url": "https://www.drinkmonster.com/en-gb/products/"
+    },
+    {
+      "region": "DE",
+      "url": "https://www.drinkmonster.com/de-de/products/"
+    },
+    {
+      "region": "PL",
+      "url": "https://www.drinkmonster.com/pl-pl/products/"
+    },
+    {
+      "region": "JP",
+      "url": "https://www.drinkmonster.com/ja-jp/products/"
+    },
+    {
+      "region": "AU",
+      "url": "https://www.drinkmonster.com/en-au/products/"
+    },
+    {
+      "region": "BR",
+      "url": "https://www.drinkmonster.com/pt-br/products/"
+    },
+    {
+      "region": "CA",
+      "url": "https://www.drinkmonster.com/en-ca/products/"
+    },
+    {
+      "region": "NZ",
+      "url": "https://www.drinkmonster.com/en-nz/products/"
+    },
+    {
+      "region": "ZA",
+      "url": "https://www.drinkmonster.com/en-za/products/"
+    },
+    {
+      "region": "FR",
+      "url": "https://www.drinkmonster.com/fr-fr/products/"
+    },
+    {
+      "region": "KR",
+      "url": "https://www.drinkmonster.com/ko-kr/products/"
+    },
+    {
+      "region": "MX",
+      "url": "https://www.drinkmonster.com/es-mx/products/"
+    },
+    {
+      "region": "ES",
+      "url": "https://www.drinkmonster.com/es-es/products/"
+    },
+    {
+      "region": "IT",
+      "url": "https://www.drinkmonster.com/it-it/products/"
+    }
+  ],
+  "products": [
+    {
+      "name": "Original Green",
+      "line": "Original",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "JP",
+        "AU",
+        "BR",
+        "CA",
+        "NZ",
+        "ZA",
+        "FR",
+        "MX",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/original-green/",
+      "color": "#6BD41A",
+      "id": "original-original",
+      "image": "assets/original-original.webp"
+    },
+    {
+      "name": "Zero Sugar",
+      "line": "Original",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "JP",
+        "AU",
+        "BR",
+        "CA",
+        "NZ",
+        "ZA",
+        "FR",
+        "KR",
+        "MX",
+        "ES",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/zero-sugar/",
+      "color": "#6BD41A",
+      "id": "original-zero-sugar",
+      "image": "assets/original-zero-sugar.webp"
+    },
+    {
+      "name": "Vanilla Shot",
+      "line": "Original",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/monster-energy-vanilla-shot/",
+      "color": "#f1eed7",
+      "id": "original-vanilla-shot",
+      "image": "assets/original-vanilla-shot.webp"
+    },
+    {
+      "name": "Zero Sugar Vanilla Shot",
+      "line": "Original",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/zero-sugar-vanilla-shot/",
+      "color": "#f1eed7",
+      "id": "original-zero-sugar-vanilla-shot",
+      "image": "assets/original-zero-sugar-vanilla-shot.webp"
+    },
+    {
+      "name": "Lando Norris Zero Sugar",
+      "line": "Original",
+      "regions": [
+        "US",
+        "DE",
+        "PL",
+        "AU",
+        "ZA",
+        "FR",
+        "MX",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/lando-norris/",
+      "color": "#e1ff00",
+      "id": "original-lando-norris-zero-sugar",
+      "image": "assets/original-lando-norris-zero-sugar.webp"
+    },
+    {
+      "name": "Strawberry Shot",
+      "line": "Original",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/strawberry-shot/",
+      "color": "#F84055",
+      "id": "original-strawberry-shot",
+      "image": "assets/original-strawberry-shot.webp"
+    },
+    {
+      "name": "Zero Sugar Strawberry Shot",
+      "line": "Original",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/zero-sugar-strawberry-shot/",
+      "color": "#F84055",
+      "id": "original-zero-sugar-strawberry-shot",
+      "image": "assets/original-zero-sugar-strawberry-shot.webp"
+    },
+    {
+      "name": "Electric Blue",
+      "line": "Original",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/electric-blue/",
+      "color": "#2D9DCD",
+      "id": "original-electric-blue",
+      "image": "assets/original-electric-blue.webp"
+    },
+    {
+      "name": "Orange Dreamsicle",
+      "line": "Original",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/orange-dreamsicle/",
+      "color": "#F09026",
+      "id": "original-orange-dreamsicle",
+      "image": "assets/original-orange-dreamsicle.webp"
+    },
+    {
+      "name": "Lo-Carb",
+      "line": "Original",
+      "regions": [
+        "US",
+        "MX"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/lo-carb/",
+      "color": "#00DAFF",
+      "id": "original-lo-carb",
+      "image": "assets/original-lo-carb.webp"
+    },
+    {
+      "name": "Reserve Orange Dreamsicle",
+      "line": "Original",
+      "regions": [
+        "US",
+        "GB",
+        "PL",
+        "CA"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/reserve-orange-dreamsicle/",
+      "color": "#FF8726",
+      "id": "original-reserve-orange-dreamsicle",
+      "image": "assets/original-reserve-orange-dreamsicle.webp"
+    },
+    {
+      "name": "Reserve Peaches n’ Crème",
+      "line": "Original",
+      "regions": [
+        "US",
+        "PL",
+        "CA"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/reserve-peaches-n-creme/",
+      "color": "#FFC093",
+      "id": "original-reserve-peaches-n-creme",
+      "image": "assets/original-reserve-peaches-n-creme.webp"
+    },
+    {
+      "name": "Nitro Super Dry",
+      "line": "Original",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "FR",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/nitro-super-dry/",
+      "color": "#D3EC27",
+      "id": "original-nitro-super-dry",
+      "image": "assets/original-nitro-super-dry.webp"
+    },
+    {
+      "name": "Super-Premium Import",
+      "line": "Original",
+      "regions": [
+        "US",
+        "AU",
+        "NZ"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/monster-energy/import/",
+      "color": "#6BD41A",
+      "id": "original-super-premium-import",
+      "image": "assets/original-super-premium-import.webp"
+    },
+    {
+      "name": "Zero Ultra (White)",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "JP",
+        "AU",
+        "BR",
+        "CA",
+        "NZ",
+        "ZA",
+        "FR",
+        "KR",
+        "MX",
+        "ES",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/zero-ultra/",
+      "color": "#B1B1B1",
+      "id": "ultra-zero-ultra",
+      "image": "assets/ultra-zero-ultra.webp"
+    },
+    {
+      "name": "Ultra Red White Blue Razz",
+      "line": "Ultra",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-red-white-blue-razz/",
+      "color": "#F83545",
+      "id": "ultra-ultra-red-white-blue-razz",
+      "image": "assets/ultra-ultra-red-white-blue-razz.webp"
+    },
+    {
+      "name": "Ultra Punk Punch",
+      "line": "Ultra",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-punk-punch/",
+      "color": "#cd2262",
+      "id": "ultra-ultra-punk-punch",
+      "image": "assets/ultra-ultra-punk-punch.webp"
+    },
+    {
+      "name": "Ultra Blue Hawaiian",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "AU",
+        "CA"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-blue-hawaiian/",
+      "color": "#00CBF5",
+      "id": "ultra-ultra-blue-hawaiian",
+      "image": "assets/ultra-ultra-blue-hawaiian.webp"
+    },
+    {
+      "name": "Ultra Vice Guava",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "PL",
+        "JP",
+        "AU",
+        "CA",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-vice-guava/",
+      "color": "#43CFBB",
+      "id": "ultra-ultra-vice-guava",
+      "image": "assets/ultra-ultra-vice-guava.webp"
+    },
+    {
+      "name": "Ultra Wild Passion",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "CA"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-wild-passion/",
+      "color": "#DD91E0",
+      "id": "ultra-ultra-wild-passion",
+      "image": "assets/ultra-ultra-wild-passion.webp"
+    },
+    {
+      "name": "Ultra Strawberry Dreams",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "AU",
+        "BR",
+        "CA",
+        "ZA",
+        "FR",
+        "KR",
+        "MX",
+        "ES",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-strawberry-dreams/",
+      "color": "#EDAAD4",
+      "id": "ultra-ultra-strawberry-dreams",
+      "image": "assets/ultra-ultra-strawberry-dreams.webp"
+    },
+    {
+      "name": "Ultra Sunrise",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "CA"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-sunrise/",
+      "color": "#FFA469",
+      "id": "ultra-ultra-sunrise",
+      "image": "assets/ultra-ultra-sunrise.webp"
+    },
+    {
+      "name": "Ultra Violet",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "PL",
+        "JP",
+        "AU",
+        "BR",
+        "CA",
+        "NZ",
+        "KR"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-violet/",
+      "color": "#AE6AEE",
+      "id": "ultra-ultra-violet",
+      "image": "assets/ultra-ultra-violet.webp"
+    },
+    {
+      "name": "Ultra Peachy Keen",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "AU",
+        "BR",
+        "CA",
+        "NZ",
+        "FR",
+        "KR",
+        "MX",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-peachy-keen/",
+      "color": "#F5A192",
+      "id": "ultra-ultra-peachy-keen",
+      "image": "assets/ultra-ultra-peachy-keen.webp"
+    },
+    {
+      "name": "Ultra Fantasy Ruby Red",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "JP",
+        "AU",
+        "CA",
+        "FR",
+        "KR",
+        "ES",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-fantasy-ruby-red/",
+      "color": "#F260B9",
+      "id": "ultra-ultra-fantasy-ruby-red",
+      "image": "assets/ultra-ultra-fantasy-ruby-red.webp"
+    },
+    {
+      "name": "Ultra Paradise",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "JP",
+        "AU",
+        "CA",
+        "NZ",
+        "FR",
+        "MX",
+        "ES",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-paradise/",
+      "color": "#7CC53F",
+      "id": "ultra-ultra-paradise",
+      "image": "assets/ultra-ultra-paradise.webp"
+    },
+    {
+      "name": "Ultra Fiesta Mango",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "AU",
+        "BR",
+        "CA",
+        "NZ",
+        "ZA",
+        "FR",
+        "ES",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-fiesta-mango/",
+      "color": "#F5A23C",
+      "id": "ultra-ultra-fiesta-mango",
+      "image": "assets/ultra-ultra-fiesta-mango.webp"
+    },
+    {
+      "name": "Ultra Watermelon",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "BR",
+        "ZA",
+        "FR",
+        "ES",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-watermelon/",
+      "color": "#FF4954",
+      "id": "ultra-ultra-watermelon",
+      "image": "assets/ultra-ultra-watermelon.webp"
+    },
+    {
+      "name": "Ultra Rosá",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "AU",
+        "CA",
+        "NZ",
+        "ZA",
+        "FR",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-rosa/",
+      "color": "#FF81AD",
+      "id": "ultra-ultra-rosa",
+      "image": "assets/ultra-ultra-rosa.webp"
+    },
+    {
+      "name": "Ultra Red",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-red/",
+      "color": "#FE3548",
+      "id": "ultra-ultra-red",
+      "image": "assets/ultra-ultra-red.webp"
+    },
+    {
+      "name": "Ultra Blue",
+      "line": "Ultra",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-blue/",
+      "color": "#5EBAFF",
+      "id": "ultra-ultra-blue",
+      "image": "assets/ultra-ultra-blue.webp"
+    },
+    {
+      "name": "Ultra Black",
+      "line": "Ultra",
+      "regions": [
+        "US",
+        "GB",
+        "PL"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/zero-sugar/ultra-black/",
+      "color": "#B1B1B1",
+      "id": "ultra-ultra-black",
+      "image": "assets/ultra-ultra-black.webp"
+    },
+    {
+      "name": "Java Dubai Chocolate",
+      "line": "Java",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/java-monster/dubai-chocolate/",
+      "color": "#c4dc84",
+      "id": "java-java-dubai-chocolate",
+      "image": "assets/java-java-dubai-chocolate.webp"
+    },
+    {
+      "name": "Java Mean Bean",
+      "line": "Java",
+      "regions": [
+        "US",
+        "CA"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/java-monster/mean-bean/",
+      "color": "#E1C38D",
+      "id": "java-java-mean-bean",
+      "image": "assets/java-java-mean-bean.webp"
+    },
+    {
+      "name": "Java Loca Moca",
+      "line": "Java",
+      "regions": [
+        "US",
+        "CA"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/java-monster/loca-moca/",
+      "color": "#BC8058",
+      "id": "java-java-loca-moca",
+      "image": "assets/java-java-loca-moca.webp"
+    },
+    {
+      "name": "Java Salted Caramel",
+      "line": "Java",
+      "regions": [
+        "US",
+        "CA"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/java-monster/salted-caramel/",
+      "color": "#D09E40",
+      "id": "java-java-salted-caramel",
+      "image": "assets/java-java-salted-caramel.webp"
+    },
+    {
+      "name": "Java Café Latte",
+      "line": "Java",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/java-monster/cafe-latte/",
+      "color": "#F3E199",
+      "id": "java-java-cafe-latte",
+      "image": "assets/java-java-cafe-latte.webp"
+    },
+    {
+      "name": "Java Irish Crème",
+      "line": "Java",
+      "regions": [
+        "US",
+        "CA"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/java-monster/irish-creme/",
+      "color": "#41C25F",
+      "id": "java-java-irish-creme",
+      "image": "assets/java-java-irish-creme.webp"
+    },
+    {
+      "name": "Killer Brew Loca Moca",
+      "line": "Java",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/java-monster/killer-brew-loca-moca/",
+      "color": "#F1576F",
+      "id": "java-killer-brew-loca-moca",
+      "image": "assets/java-killer-brew-loca-moca.webp"
+    },
+    {
+      "name": "Killer Brew Mean Bean",
+      "line": "Java",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/java-monster/killer-brew-mean-bean/",
+      "color": "#77D0E4",
+      "id": "java-killer-brew-mean-bean",
+      "image": "assets/java-killer-brew-mean-bean.webp"
+    },
+    {
+      "name": "Mango Loco",
+      "line": "Juice",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "JP",
+        "AU",
+        "BR",
+        "CA",
+        "NZ",
+        "FR",
+        "KR",
+        "MX",
+        "ES",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/juice-monster/mango-loco/",
+      "color": "#00BAFE",
+      "id": "juice-mango-loco",
+      "image": "assets/juice-mango-loco.webp"
+    },
+    {
+      "name": "Voodoo Grape",
+      "line": "Juice",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/juice-monster/voodoo-grape/",
+      "color": "#AD57FF",
+      "id": "juice-voodoo-grape",
+      "image": "assets/juice-voodoo-grape.webp"
+    },
+    {
+      "name": "Strawberry Lemonade",
+      "line": "Juice",
+      "regions": [
+        "US"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/juice-monster/strawberry-lemonade/",
+      "color": "#fc0303",
+      "id": "juice-strawberry-lemonade",
+      "image": "assets/juice-strawberry-lemonade.webp"
+    },
+    {
+      "name": "Pacific Punch",
+      "line": "Juice",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "BR",
+        "CA",
+        "ZA",
+        "FR"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/juice-monster/pacific-punch/",
+      "color": "#E4CEAA",
+      "id": "juice-pacific-punch",
+      "image": "assets/juice-pacific-punch.webp"
+    },
+    {
+      "name": "Viking Berry",
+      "line": "Juice",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "CA",
+        "ZA",
+        "FR",
+        "ES",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/juice-monster/viking-berry/",
+      "color": "#F7599A",
+      "id": "juice-viking-berry",
+      "image": "assets/juice-viking-berry.webp"
+    },
+    {
+      "name": "Bad Apple",
+      "line": "Juice",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "JP",
+        "AU",
+        "CA",
+        "NZ",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/juice-monster/bad-apple/",
+      "color": "#F63513",
+      "id": "juice-bad-apple",
+      "image": "assets/juice-bad-apple.webp"
+    },
+    {
+      "name": "Rio Punch",
+      "line": "Juice",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "AU",
+        "BR",
+        "CA",
+        "ZA",
+        "FR",
+        "ES",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/juice-monster/rio-punch/",
+      "color": "#F0D335",
+      "id": "juice-rio-punch",
+      "image": "assets/juice-rio-punch.webp"
+    },
+    {
+      "name": "Pipeline Punch",
+      "line": "Juice",
+      "regions": [
+        "US",
+        "GB",
+        "DE",
+        "PL",
+        "JP",
+        "AU",
+        "BR",
+        "CA",
+        "NZ",
+        "ZA",
+        "FR",
+        "KR",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/juice-monster/pipeline-punch/",
+      "color": "#EF536C",
+      "id": "juice-pipeline-punch",
+      "image": "assets/juice-pipeline-punch.webp"
+    },
+    {
+      "name": "Rehab Tea + Lemonade",
+      "line": "Rehab",
+      "regions": [
+        "US",
+        "DE",
+        "PL",
+        "CA",
+        "FR",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/rehab-monster/tea-lemonade/",
+      "color": "#F9D901",
+      "id": "rehab-rehab-tea-lemonade",
+      "image": "assets/rehab-rehab-tea-lemonade.webp"
+    },
+    {
+      "name": "Rehab Peach Tea",
+      "line": "Rehab",
+      "regions": [
+        "US",
+        "DE",
+        "PL",
+        "CA",
+        "FR",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/rehab-monster/peach-tea/",
+      "color": "#F59A4C",
+      "id": "rehab-rehab-peach-tea",
+      "image": "assets/rehab-rehab-peach-tea.webp"
+    },
+    {
+      "name": "Rehab Wild Berry Tea",
+      "line": "Rehab",
+      "regions": [
+        "US",
+        "DE",
+        "PL",
+        "CA",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/rehab-monster/wild-berry/",
+      "color": "#D92787",
+      "id": "rehab-rehab-wild-berry-tea",
+      "image": "assets/rehab-rehab-wild-berry-tea.webp"
+    },
+    {
+      "name": "Rehab Green Tea",
+      "line": "Rehab",
+      "regions": [
+        "US",
+        "CA"
+      ],
+      "source": "https://www.drinkmonster.com/en-us/energy-drinks/rehab-monster/green-tea/",
+      "color": "#AAD448",
+      "id": "rehab-rehab-green-tea",
+      "image": "assets/rehab-rehab-green-tea.webp"
+    },
+    {
+      "name": "Reserve White Pineapple",
+      "line": "Original",
+      "regions": [
+        "GB",
+        "ZA",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/monster-energy/reserve-white-pineapple/",
+      "color": "#FFF15C",
+      "id": "original-reserve-white-pineapple",
+      "image": "assets/original-reserve-white-pineapple.webp"
+    },
+    {
+      "name": "Reserve Watermelon",
+      "line": "Original",
+      "regions": [
+        "GB"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/monster-energy/reserve-watermelon/",
+      "color": "#F84055",
+      "id": "original-reserve-watermelon",
+      "image": "assets/original-reserve-watermelon.webp"
+    },
+    {
+      "name": "Lando Norris Gold Edition",
+      "line": "Original",
+      "regions": [
+        "GB",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/monster-energy/lando-norris-zero-sugar/",
+      "color": "#D9E600",
+      "id": "original-lando-norris-gold-edition",
+      "image": "assets/original-lando-norris-gold-edition.webp"
+    },
+    {
+      "name": "VR46 The Doctor",
+      "line": "Original",
+      "regions": [
+        "GB",
+        "DE",
+        "PL",
+        "ZA"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/monster-energy/vr46-aka-the-doctor/",
+      "color": "#FEE32E",
+      "id": "original-vr46-doctor",
+      "image": "assets/original-vr46-doctor.webp"
+    },
+    {
+      "name": "Full Throttle Zero Sugar",
+      "line": "Original",
+      "regions": [
+        "GB",
+        "PL",
+        "ES",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/monster-energy/full-throttle-zero-sugar/",
+      "color": "#F0CE00",
+      "id": "original-full-throttle-zero-sugar",
+      "image": "assets/original-full-throttle-zero-sugar.webp"
+    },
+    {
+      "name": "Nitro Cosmic Peach",
+      "line": "Original",
+      "regions": [
+        "GB",
+        "DE",
+        "PL"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/monster-energy/nitro-cosmic-peach/",
+      "color": "#FFA023",
+      "id": "original-nitro-cosmic-peach",
+      "image": "assets/original-nitro-cosmic-peach.webp"
+    },
+    {
+      "name": "Assault",
+      "line": "Original",
+      "regions": [
+        "GB",
+        "DE"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/monster-energy/assault/",
+      "color": "#FF193B",
+      "id": "original-assault",
+      "image": "assets/original-assault.webp"
+    },
+    {
+      "name": "The Non-Alcoholic Monster Mule",
+      "line": "Original",
+      "regions": [
+        "GB"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/monster-energy/monster-mule/",
+      "color": "#F59D71",
+      "id": "original-non-alcoholic-mule",
+      "image": "assets/original-non-alcoholic-mule.webp"
+    },
+    {
+      "name": "VR46 Zero Sugar",
+      "line": "Original",
+      "regions": [
+        "GB",
+        "DE",
+        "PL",
+        "FR",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/monster-energy/vr-46-zero-sugar/",
+      "color": "#FEE32E",
+      "id": "original-vr46-zero-sugar",
+      "image": "assets/original-vr46-zero-sugar.webp"
+    },
+    {
+      "name": "Ultra Golden Pineapple",
+      "line": "Ultra",
+      "regions": [
+        "GB",
+        "DE",
+        "NZ",
+        "FR",
+        "ES",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/monster-ultra/zero-sugar-ultra-gold/",
+      "color": "#EBC969",
+      "id": "ultra-ultra-golden-pineapple",
+      "image": "assets/ultra-ultra-golden-pineapple.webp"
+    },
+    {
+      "name": "Aussie Style Lemonade",
+      "line": "Juice",
+      "regions": [
+        "GB",
+        "DE",
+        "PL",
+        "AU",
+        "CA",
+        "NZ",
+        "ZA",
+        "FR",
+        "KR",
+        "ES",
+        "IT"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/juiced-monster/aussie-lemonade/",
+      "color": "#40DBD5",
+      "id": "juice-aussie-style-lemonade",
+      "image": "assets/juice-aussie-style-lemonade.webp"
+    },
+    {
+      "name": "Khaotic",
+      "line": "Juice",
+      "regions": [
+        "GB",
+        "DE",
+        "BR",
+        "CA",
+        "FR",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/juiced-monster/khaotic/",
+      "color": "#F0BC37",
+      "id": "juice-khaotic",
+      "image": "assets/juice-khaotic.webp"
+    },
+    {
+      "name": "Monarch",
+      "line": "Juice",
+      "regions": [
+        "GB",
+        "DE",
+        "PL",
+        "FR",
+        "MX",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/juiced-monster/monarch/",
+      "color": "#6BD41A",
+      "id": "juice-monarch",
+      "image": "assets/juice-monarch.webp"
+    },
+    {
+      "name": "Ripper",
+      "line": "Juice",
+      "regions": [
+        "GB",
+        "JP",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/juiced-monster/ripper/",
+      "color": "#F0C107",
+      "id": "juice-ripper",
+      "image": "assets/juice-ripper.webp"
+    },
+    {
+      "name": "Mixxd Punch",
+      "line": "Juice",
+      "regions": [
+        "GB",
+        "DE",
+        "FR",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/en-gb/energy-drinks/juiced-monster/mixxd-punch/",
+      "color": "#F41597",
+      "id": "juice-mixxd-punch",
+      "image": "assets/juice-mixxd-punch.webp"
+    },
+    {
+      "name": "Top Speed Zero Sugar",
+      "line": "Original",
+      "regions": [
+        "DE",
+        "FR"
+      ],
+      "source": "https://www.drinkmonster.com/de-de/energy-drinks/monster-energy/top-speed-zero-sugar/",
+      "color": "#F0CE00",
+      "id": "original-top-speed-zero-sugar",
+      "image": "assets/original-top-speed-zero-sugar.webp"
+    },
+    {
+      "name": "Nitro Blue Flash",
+      "line": "Original",
+      "regions": [
+        "PL"
+      ],
+      "source": "https://www.drinkmonster.com/pl-pl/energy-drinks/monster-energy/nitro-blue-flash/",
+      "color": "#2ac1f4",
+      "id": "original-nitro-blue-flash",
+      "image": "assets/original-nitro-blue-flash.webp"
+    },
+    {
+      "name": "M3",
+      "line": "Original",
+      "regions": [
+        "JP"
+      ],
+      "source": "https://www.drinkmonster.com/ja-jp/energy-drinks/monster-energy/モンスターエナジー-m3/",
+      "color": "#6BD41A",
+      "id": "original-m3",
+      "image": "assets/original-m3.webp"
+    },
+    {
+      "name": "Original Bottle Can 500 ml",
+      "line": "Original",
+      "regions": [
+        "JP"
+      ],
+      "source": "https://www.drinkmonster.com/ja-jp/energy-drinks/monster-energy/モンスターエナジーボトル缶500ml/",
+      "color": "#6BD41A",
+      "id": "original-original-bottle-can-500-ml",
+      "image": "assets/original-original-bottle-can-500-ml.webp"
+    },
+    {
+      "name": "Original 500 ml",
+      "line": "Original",
+      "regions": [
+        "JP"
+      ],
+      "source": "https://www.drinkmonster.com/ja-jp/energy-drinks/monster-energy/500ml/",
+      "color": "#6BD41A",
+      "id": "original-original-500-ml",
+      "image": "assets/original-original-500-ml.webp"
+    },
+    {
+      "name": "Papillon",
+      "line": "Juice",
+      "regions": [
+        "AU",
+        "NZ",
+        "KR"
+      ],
+      "source": "https://www.drinkmonster.com/en-au/energy-drinks/juice-monster/papillon/",
+      "color": "#fdb653",
+      "id": "juice-papillon",
+      "image": "assets/juice-papillon.webp"
+    },
+    {
+      "name": "Absolutely Zero",
+      "line": "Original",
+      "regions": [
+        "BR",
+        "ZA",
+        "ES"
+      ],
+      "source": "https://www.drinkmonster.com/pt-br/energy-drinks/monster-energy/monster-energy-absolutely-zero/",
+      "color": "#70bed3",
+      "id": "original-absolutely-zero",
+      "image": "assets/original-absolutely-zero.webp"
+    },
+    {
+      "name": "Original 269 ml",
+      "line": "Original",
+      "regions": [
+        "BR"
+      ],
+      "source": "https://www.drinkmonster.com/pt-br/energy-drinks/monster-energy/monster-energy-269ml/",
+      "color": "#6BD41A",
+      "id": "original-original-269-ml",
+      "image": "assets/original-original-269-ml.webp"
+    },
+    {
+      "name": "Rehab Dragon Ice Tea Limão",
+      "line": "Rehab",
+      "regions": [
+        "BR"
+      ],
+      "source": "https://www.drinkmonster.com/pt-br/energy-drinks/dragon-tea/monster-energy-dragon-ice-tea-limão/",
+      "color": "#5da845",
+      "id": "rehab-rehab-dragon-ice-tea-limao",
+      "image": "assets/rehab-rehab-dragon-ice-tea-limao.webp"
+    },
+    {
+      "name": "Rehab Dragon Ice Tea Pêssego",
+      "line": "Rehab",
+      "regions": [
+        "BR"
+      ],
+      "source": "https://www.drinkmonster.com/pt-br/energy-drinks/dragon-tea/monster-energy-dragon-ice-tea-pêssego/",
+      "color": "#FFC59E",
+      "id": "rehab-rehab-dragon-ice-tea-pessego",
+      "image": "assets/rehab-rehab-dragon-ice-tea-pessego.webp"
+    },
+    {
+      "name": "The Original Lo-Cal",
+      "line": "Original",
+      "regions": [
+        "CA"
+      ],
+      "source": "https://www.drinkmonster.com/en-ca/energy-drinks/monster-energy/lo-cal/",
+      "color": "#00DAFF",
+      "id": "original-original-lo-cal",
+      "image": "assets/original-original-lo-cal.webp"
+    },
+    {
+      "name": "Java Triple Shot Mocha",
+      "line": "Java",
+      "regions": [
+        "CA"
+      ],
+      "source": "https://www.drinkmonster.com/en-ca/energy-drinks/java-monster/java-monster-triple-shot-mocha/",
+      "color": "#F75E64",
+      "id": "java-java-triple-shot-mocha",
+      "image": "assets/java-java-triple-shot-mocha.webp"
+    },
+    {
+      "name": "Java Triple Shot French Vanilla",
+      "line": "Java",
+      "regions": [
+        "CA"
+      ],
+      "source": "https://www.drinkmonster.com/en-ca/energy-drinks/java-monster/java-monster-triple-shot-french-vanilla/",
+      "color": "#4CBEE9",
+      "id": "java-java-triple-shot-french-vanilla",
+      "image": "assets/java-java-triple-shot-french-vanilla.webp"
+    },
+    {
+      "name": "Mucho Loco",
+      "line": "Juice",
+      "regions": [
+        "ZA"
+      ],
+      "source": "https://www.drinkmonster.com/en-za/energy-drinks/juiced-monster/monster-mucho-loco/",
+      "color": "#6BD41A",
+      "id": "juice-mucho-loco",
+      "image": "assets/juice-mucho-loco.webp"
+    },
+    {
+      "name": "Mariposa",
+      "line": "Juice",
+      "regions": [
+        "ZA"
+      ],
+      "source": "https://www.drinkmonster.com/en-za/energy-drinks/juiced-monster/monster-mariposa/",
+      "color": "#6BD41A",
+      "id": "juice-mariposa",
+      "image": "assets/juice-mariposa.webp"
+    },
+    {
+      "name": "Ultra Citra",
+      "line": "Ultra",
+      "regions": [
+        "KR"
+      ],
+      "source": "https://www.drinkmonster.com/ko-kr/energy-drinks/monster-ultra/monster-energy-ultra-citra/",
+      "color": "#FBEF51",
+      "id": "ultra-ultra-citra",
+      "image": "assets/ultra-ultra-citra.webp"
+    }
+  ]
+}

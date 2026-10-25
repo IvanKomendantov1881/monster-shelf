@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101210">
+  <meta name="description" content="Твоя коллекция Monster. Отмечай вкусы, которые пробовал, и банки, которые уже на полке.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Monster Shelf — твоя коллекция</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="topbar wrap">
+    <a class="brand" href="./" aria-label="Monster Shelf, главная"><span class="brand-symbol" aria-hidden="true">M<span>®</span></span><span>MONSTER<span class="brand-sub">SHELF / ЛИЧНЫЙ АРХИВ</span></span></a>
+    <div class="top-actions"><span class="local-label"><i></i> Сохраняется на устройстве</span><button class="icon-button" id="menu-button" aria-label="Меню коллекции" aria-expanded="false" aria-controls="tools-menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div>
+    <div class="tools-menu" id="tools-menu" hidden><button id="export-button">↓ Скачать мою коллекцию</button><button id="import-button">↑ Восстановить из файла</button><button id="install-button">＋ Добавить на главный экран</button><button id="about-button">Как это работает / источники</button></div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><div class="eyebrow"><span class="mini-line"></span> НЕ ПРОСТО ПУСТЫЕ БАНКИ</div><h1 id="hero-title">ТВОЯ<br>ПОЛКА<span class="acid">.</span></h1><p>Все вкусы, которые хочется найти.<br>Все банки, которые хочется сохранить.</p><div class="hero-hint"><span class="hint-check">✓</span><span>Нажми на банку, если уже пробовал.<br><b>Собранные станут чуть тише. Впереди — новые.</b></span></div></div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit"></div><span class="art-label">THE COLLECTION / <span id="edition-year">2026</span></span><div class="hero-cans" id="hero-cans"></div><span class="art-bottom">ONE MORE FOR THE SHELF.</span></div>
+    </section>
+
+    <section class="collection-summary" aria-label="Прогресс коллекции">
+      <div class="summary-intro"><span class="eyebrow">ТВОЙ ПРОГРЕСС</span><div class="progress-track"><div id="progress-fill"></div></div><span id="progress-caption">Загружаем каталог…</span></div>
+      <div class="stat"><strong id="tried-count">0</strong><span>попробовано</span></div><div class="stat"><strong id="owned-count">0</strong><span>банок на полке</span></div><div class="stat stat-next"><strong id="remaining-count">—</strong><span>ещё впереди</span></div>
+    </section>
+
+    <section class="catalog" aria-labelledby="catalog-title">
+      <div class="catalog-heading"><h2 id="catalog-title">КАТАЛОГ ВКУСОВ<span id="catalog-total"> / —</span></h2><button class="quiet-button" id="add-button"><span>＋</span> Своя банка</button></div>
+      <div class="toolbar"><label class="search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="Найти вкус…" autocomplete="off" aria-label="Поиск вкуса"></label><label class="select-label"><span class="sr-only">Регион каталога</span><select id="region"><option value="all">Все регионы</option></select></label><label class="select-label sort-label"><span class="sr-only">Сортировка</span><select id="sort"><option value="discover">Сначала непробованные</option><option value="name">По названию</option><option value="line">По линейке</option></select></label></div>
+      <div class="collection-tabs" id="status-tabs" aria-label="Фильтр коллекции"><button data-status="all" aria-pressed="true" class="active">Все вкусы <span id="tab-all">—</span></button><button data-status="untried" aria-pressed="false">Хочу попробовать <span id="tab-untried">—</span></button><button data-status="tried" aria-pressed="false">Пробовал <span id="tab-tried">0</span></button><button data-status="owned" aria-pressed="false">На полке <span id="tab-owned">0</span></button></div>
+      <div class="line-filters" id="line-filters" aria-label="Линейки Monster"><button data-line="all" class="active" aria-pressed="true">Все линейки</button><button data-line="Original" aria-pressed="false">Original</button><button data-line="Ultra" aria-pressed="false">Ultra <span>ZERO SUGAR</span></button><button data-line="Juice" aria-pressed="false">Juice / Punch</button><button data-line="Java" aria-pressed="false">Java / Coffee</button><button data-line="Rehab" aria-pressed="false">Rehab</button><button data-line="Other" aria-pressed="false">Другие</button></div>
+      <div class="results-meta"><span id="results-count" aria-live="polite">Собираем полку…</span><span class="tap-legend"><i></i> яркие — ещё не пробовал</span></div>
+      <div id="catalog-grid" class="catalog-grid" aria-busy="true"><div class="loading">Секунду. Расставляем банки по местам…</div></div>
+      <div id="empty-state" class="empty-state" hidden><span>Ничего на этой полке</span><p>Попробуй другое название или убери фильтры.</p><button class="primary-button" id="clear-filters">Сбросить фильтры</button></div>
+      <div class="custom-invite"><div><strong>РЕДКОСТЬ, КОТОРОЙ ЗДЕСЬ НЕТ?</strong><p>Другой дизайн, старый выпуск или привезённая из поездки банка.</p></div><button class="outline-button" id="add-bottom-button">Добавить в коллекцию <span>↗</span></button></div>
+    </section>
+    <footer><div class="footer-brand">MONSTER SHELF<span>СОБИРАЙ ИСТОРИИ, А НЕ ТОЛЬКО БАНКИ.</span></div><p id="coverage-note">Каталог по официальным региональным сайтам Monster.</p><p>Неофициальный коллекционный проект. Monster Energy и изображения продуктов принадлежат их правообладателям. Отметки хранятся в этом браузере, без синхронизации между устройствами.</p><button class="footer-link" id="sources-button">Источники и сохранение данных ↗</button></footer>
+  </main>
+
+  <dialog id="info-dialog"><form method="dialog"><button class="dialog-close" aria-label="Закрыть">×</button></form><div class="eyebrow">MONSTER SHELF / СПРАВКА</div><h2>Твоя полка.<br>Твои отметки.</h2><div class="info-body"><p><b>Нажми на изображение банки</b> или «Пробовал», чтобы отметить вкус. Нажми ещё раз, чтобы отменить. «Банка есть» — отдельная отметка: можно хранить даже неоткрытую банку.</p><p><b>Каждый телефон — отдельная коллекция.</b> Данные сохраняются в браузере. Чтобы не потерять их при очистке браузера или смене телефона, скачай резервную копию через меню и затем восстанови её из файла.</p><p><b>Это каталог, а не обещание найти абсолютно все выпуски.</b> Ассортимент различается по странам. Здесь представлены проверенные региональные позиции, а не все исторические дизайны, объёмы и лимитированные серии. Наличие на сайте не гарантирует наличие в магазинах.</p><div id="source-list"></div><p class="small-print">Названия и изображения взяты из официальных каталогов. Отметка «пробовал» не означает рекомендацию пить больше энергетиков.</p></div></dialog>
+  <dialog id="install-dialog"><form method="dialog"><button class="dialog-close" aria-label="Закрыть">×</button></form><div class="eyebrow">БЕЗ МАГАЗИНА ПРИЛОЖЕНИЙ</div><h2>Всегда под рукой.</h2><p><b>iPhone:</b> открой ссылку в Safari → «Поделиться» → «На экран “Домой”».</p><p><b>Android:</b> открой в Chrome → меню ⋮ → «Добавить на главный экран» или «Установить приложение».</p><p class="small-print">Если ссылка открыта внутри Telegram, сначала выбери «Открыть в браузере». При добавлении в отдельное приложение браузер может использовать отдельное хранилище — сохрани резервную копию для переноса.</p><button class="primary-button" id="native-install" hidden>Установить приложение</button></dialog>
+  <dialog id="add-dialog"><form id="custom-form"><button type="button" class="dialog-close" aria-label="Закрыть" id="close-add">×</button><div class="eyebrow">ЕЩЁ ОДНА ИСТОРИЯ</div><h2>Добавить свою банку</h2><label class="field">Название<input name="name" required maxlength="80" placeholder="Например, Ultra Gold — старый дизайн"></label><div class="form-row"><label class="field">Линейка<select name="line"><option>Original</option><option>Ultra</option><option>Juice</option><option>Java</option><option>Rehab</option><option>Other</option></select></label><label class="field">Страна / выпуск<input name="region" maxlength="40" placeholder="Япония, 2024"></label></div><label class="field">Фото банки <span class="optional">необязательно</span><input name="photo" type="file" accept="image/jpeg,image/png,image/webp"></label><div class="custom-checks"><label><input type="checkbox" name="tried" checked> Уже пробовал</label><label><input type="checkbox" name="owned" checked> Банка есть</label></div><p class="small-print">Сохранится только в твоём браузере. Фото тоже попадёт в резервную копию.</p><button type="submit" class="primary-button">Добавить на полку</button><p id="custom-error" class="error-text" role="alert"></p></form></dialog>
+  <input id="import-file" type="file" accept="application/json,.json" hidden>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
